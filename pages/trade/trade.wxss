@@ -1,0 +1,27 @@
+page {
+  color: #888;
+}
+.m-head swiper {
+  height: 200px;
+}
+.m-head image{
+  width: 100%;
+  height: 100%;
+}
+.m-container {
+  padding: 20rpx;
+}
+.item {
+  padding: 20rpx;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px #999;
+}
+.title {
+  text-align: center;
+  color: #3F76DA;
+  margin-bottom: 20rpx;
+}
+.con {
+  font-size: 14px;
+  
+}

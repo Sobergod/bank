@@ -1,0 +1,30 @@
+  <view class="head">
+   <view class='user-info'>
+    <view class='imageContent'>
+      <image class='userInfoImg' src='{{userInfo.avatarUrl}}'></image>
+    </view>
+    <text class='userInfoNickName'>{{userInfo.nickName}}</text>
+  </view>
+  <view class='right-img-group'>
+    <image class='img img1' src='{{img1}}'></image>
+    <image class='img img2' src='{{img2}}'></image>
+  </view> 
+</view>  
+<view class='nav'>
+  <block wx:for='{{nav}}' wx:key='{{item.title}}'>
+    <navigator class='nav-item' url='{{item.url}}'>
+      <image src='{{item.img}}'></image>
+      <text>{{item.title}}</text>
+    </navigator>
+  </block>
+</view>
+<view class='active-wrap'>
+  <view class='title'>精选优惠活动</view>
+  <view class='content'>
+    <block wx:for='{{activityContent}}'>
+      <view bindtap='' data-active='{{item.id}}'>
+        <image src='{{item.img}}' mode='widthFix'></image>
+      </view>
+    </block>
+  </view>
+</view>

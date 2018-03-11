@@ -1,0 +1,28 @@
+<!--pages/financial/fdetail/fdetail.wxml-->
+<import src="../../template/template.wxml"/>
+<view class='m-head'>
+  <template is="lunbo" data="{{...swiperInfo}}"></template>
+</view>
+<view class='m-container'>
+  <view class='detail-title'>
+    <view>尊敬的客户: </view>
+    <view class='txt'>{{detailtext}}</view>
+  </view>
+  <view class='detail-wrap'>
+    <view class='text'>产品基本信息如下:</view>
+    <view class='items'>
+      <block wx:for="{{prodetail}}">
+        <view class='item'>
+          <view class='item-title'>{{item.title}}</view>
+          <view class='item-con'>{{item.con}}</view>
+        </view>
+      </block>
+    </view>
+    <view class='text'>注: 产品详情咨询我行销售理财产品网店</view>
+  </view>
+</view>
+<view class='footer'>
+  <view class='footer-btn' bindtap='buy'>
+    <text>新用户请到附近网店购买</text>
+  </view>
+</view>

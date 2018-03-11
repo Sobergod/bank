@@ -1,0 +1,26 @@
+<!--pages/metal/metal.wxml-->
+<import src="./../template/template.wxml" />
+<view class='m-head'>
+  <template is="lunbo" data="{{...swiperInfo}}"></template>
+</view>
+<view class='m-container'>
+  <view class='items'>
+    <block wx:for="{{mdetails}}" wx:key="{{item.mid}}">
+      <view class='bg-item'>
+        <image src='{{item.bagUrl}}' mode='widthFix'></image>
+        <view class='item'>
+          <view class='left'>
+            <view class='fimg'>
+              <image src='{{item.figure}}'></image>
+            </view>
+            <view>{{item.title}}</view>
+          </view>
+          <view class='btn' bindtap='mDetail' data-mid="{{item.mid}}">查看详情>></view>
+        </view>
+      </view>
+    </block>
+  </view>
+  <view class='footer' bindtap='loadMore'>
+    <text>查看更多>></text>
+  </view>
+</view>

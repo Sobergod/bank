@@ -1,0 +1,35 @@
+<import src="./../template/template.wxml"/>
+<view class='m-head'>
+<template is="lunbo" data="{{...swiperInfo}}"></template>
+</view>
+<view class='m-container'>
+  <view class='items'>
+    <block wx:for="{{products}}" wx:key="{{item.fid}}">
+      <view class='item' bindtap='fdetail' data-fid='{{item.fid}}'>
+        <view class='item-title'>{{item.title}}</view>
+        <view class='item-wrap'>
+          <view class='item-rate-wrap'>
+            <view class='rate'>{{item.rate}}</view>
+            <view class='txt'>参考净收益率</view>
+          </view>
+          <view class='item-others'>
+            <view class='other-top'>
+              <text>{{item.pdate}}</text>
+              <text>{{item.personal}}</text>
+              <text>{{item.company}}</text>
+            </view>
+            <view class='other-bottom'>
+              <text>{{item.currency}}</text>
+              <text>截止至购买日期: {{item.limitdate}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
+<view class='footer'>
+  <view class='footer-btn' bindtap='buy'>
+    <text>新用户请到附近网店购买</text>
+  </view>
+</view>

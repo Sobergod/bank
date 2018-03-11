@@ -1,0 +1,70 @@
+/* pages/wdcx/wdcx.wxss */
+page {
+  background-color: #fff;
+}
+.m-search {
+  position: relative;
+  background-color: #fff;
+  padding: 10rpx 40rpx;
+}
+.m-search image {
+  position: absolute;
+  top: 10px;
+  left: 32px;
+  width: 15px;
+  height: 15px;
+}
+.m-search input {
+  padding-left:80rpx; 
+  background-color: #DCDCDC;
+  border-radius: 20px;
+  font-size: 12px
+}
+.footer {
+  padding: 20rpx 40rpx;  
+}
+.floor1 {
+  display: flex;
+  padding: 20rpx 0;
+  border-top: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+  font-size: 14px;
+}
+.f {
+  width: 50%;
+  line-height: 70rpx;
+}
+.floor1 image {
+  width: 40px;
+  height: 40px;
+  margin-right: 20rpx;
+}
+.floor1 .f-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.t1 {
+  color: #888;
+  font-size: 10px;
+}
+.floor2 {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+  font-size: 14px;
+  line-height: 20px;
+  border-bottom: 1px solid #DCDCDC;
+}
+.floor2 text {
+  display: inline-block;
+}
+.phone {
+  color: #3F76DA;
+  font-size: 17px;
+}
+.floor2 image {
+  margin-right: 20rpx;
+  width: 20px;
+  height: 20px;
+}

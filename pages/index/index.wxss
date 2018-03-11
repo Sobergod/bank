@@ -1,0 +1,83 @@
+/**index.wxss**/
+.head {
+  display: flex;
+  /* padding: 40rpx 20rpx 0 20rpx;  */
+  background-color: #3F76DA;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+}
+.imageContent {
+  display: flex;
+  justify-content: center;
+  margin-right: 20rpx;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 5px #000;
+}
+.userInfoImg {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.userInfoNickName {
+  font-size: 14px;
+  color: #fff;
+}
+.right-img-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* height: 100px; */
+}
+.img {
+  width: 180px;
+  height: 90px;
+}
+.img1 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.img2 {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  height: 55px;
+}
+.nav {
+  padding: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+}
+.nav-item image {
+  width: 60px;
+  height: 60px;
+}
+.nav-item text {
+  margin-top: 20rpx;
+  font-size: 14px;
+  color: #3F76DA;
+}
+.active-wrap {
+  background-color: #EBEBEB;
+}
+.title {
+  padding: 20rpx 20rpx;
+  font-size: 17px;
+}
+.content image {
+  width: 100%;
+}

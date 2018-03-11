@@ -1,0 +1,9 @@
+<!--pages/metal/mdetail/mdetail.wxml-->
+<view class='m-head'>
+  <text>{{title}}</text>
+</view>
+<view class='m-container'>
+  <block wx:for="{{imgUrl}}">
+  <image src='{{item}}' mode='widthFix'></image>
+  </block>
+</view>

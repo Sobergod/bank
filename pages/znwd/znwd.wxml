@@ -1,0 +1,18 @@
+<!--pages/trade/trade.wxml-->
+<import src="./../template/template.wxml" />
+<view class='m-head'>
+  <template is="lunbo" data="{{...swiperInfo}}"></template>
+</view>
+<view class='m-title'>
+  <text>双阳农商行助农服务点地理位置</text>
+</view>
+<view class='m-container'>
+  <block wx:for="{{tlist}}">
+    <view class='item'>
+      <view class='item-title'>{{item.title}}网点</view>
+      <view class='item-btn' bindtap='tDetail' data-tid='{{item.id}}'>
+        <text>查看详情</text>
+      </view>
+    </view>
+  </block>
+</view>

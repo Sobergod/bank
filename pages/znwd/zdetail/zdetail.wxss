@@ -1,0 +1,41 @@
+
+.m-head image{
+  width: 100%;
+}
+.title {
+  display: flex;
+  padding: 5px 20rpx;
+  justify-content: space-between;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 1px 0 3px #999;
+}
+
+.title .t {
+  padding: 15rpx 0;
+  width: 50%;
+  color: #3f76da;
+}
+
+.t1 {
+  border-right: 1px solid #b9b9b9;
+}
+
+.m-container {
+  padding: 10rpx 20rpx;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  font-size: 14px;
+  box-shadow: 1px 1px 3px #999;
+}
+
+.item .t2 {
+  width: 50%;
+  text-align: center;
+}

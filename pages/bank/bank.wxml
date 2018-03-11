@@ -1,0 +1,11 @@
+<!--pages/bank/bank.wxml-->
+<import src="./../template/template.wxml" />
+<view class='m-head'>
+  <template is="lunbo" data="{{...swiperInfo}}"></template>
+</view>
+<view class='m-container'>
+  <view class='item'>
+    <view class='title'>电子银行精品业务</view>
+    <view class='con'>{{bank_detail.con}}</view>
+  </view>
+</view>

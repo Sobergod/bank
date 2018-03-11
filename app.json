@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/znwd/zdetail/zdetail",
+    "pages/wdcx/wdcx",
+    "pages/metal/metal",
+    "pages/metal/mdetail/mdetail",
+    "pages/template/template",
+    "pages/znwd/znwd",
+    "pages/deposit/deposit",
+    "pages/loan/loan",
+    "pages/bank/bank",
+    "pages/trade/trade",
+    "pages/financial/fdetail/fdetail",
+    "pages/financial/financial"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#3F76DA",
+    "navigationBarTextStyle": "white"
+  }
+}

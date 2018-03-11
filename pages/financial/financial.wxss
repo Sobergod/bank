@@ -1,0 +1,77 @@
+/* pages/financial/financial.wxss */
+.m-head swiper {
+  height: 200px;
+}
+.m-head image{
+  width: 100%;
+  height: 100%;
+}
+.m-container {
+  padding: 20rpx 10rpx;
+  margin-bottom: 60px;
+  background-color: #EEEEEE;
+}
+.m-container .item {
+  padding: 20rpx 40rpx;
+  margin-bottom: 20rpx;
+  border-radius: 5px;
+  box-shadow: 0 0 1px  #999;
+  background-color: #fff;
+  font-size: 14px;
+}
+.item-title {
+  margin-bottom: 20rpx;
+}
+.item-wrap {
+  display: flex;
+}
+.txt {
+  color: #888;
+  font-size: 12px;
+}
+.item-rate-wrap {
+  padding-right: 20rpx;
+  margin-right: 20rpx;
+  border-right: 1px solid #eee;
+}
+.item-rate-wrap .rate {
+  color: red;
+  font-size: 24px;
+}
+.item-others {
+  display: flex;
+  flex-direction: column;
+}
+.other-top {
+  margin-bottom: 10rpx;
+}
+.other-top text {
+  margin: 0 20rpx;
+  font-size: 12px;
+}
+.other-bottom {
+  font-size: 12px;
+  color: #888;
+}
+.other-bottom text {
+  margin-right: 20rpx;
+}
+.footer {
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+  padding: 20rpx 0;
+  width: 100%;
+  border-top: 1px solid #eee;
+  background-color: #fff;
+}
+.footer-btn {
+  padding: 10rpx 0;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 10rpx;
+  background-color: #3F76DA;
+  color: #fff;
+  font-size: 17px;
+}

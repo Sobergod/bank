@@ -1,0 +1,17 @@
+<import src="./../template/template.wxml" />
+<view class='m-head'>
+  <template is="lunbo" data="{{...swiperInfo}}"></template>
+</view>
+<view class='m-container'>
+  <block wx:for="{{lDetail}}" wx:key="{{item.did}}">
+    <view class='item'>
+      <view class='ad-img'>
+        <image src='{{item.imgUrl}}'></image>
+      </view>
+      <view class='item-con'>
+        <view class='con-title'></view>
+        <view class='con-btn'>查看详情>></view>
+      </view>
+    </view>
+  </block>
+</view>

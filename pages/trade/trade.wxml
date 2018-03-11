@@ -1,0 +1,10 @@
+<import src="./../template/template.wxml" />
+<view class='m-head'>
+  <template is="lunbo" data="{{...swiperInfo}}"></template>
+</view>
+<view class='m-container'>
+  <view class='item'>
+    <view class='title'>贸易金融部业务简介</view>
+    <view class='con'>{{trade_detail.con}}</view>
+  </view>
+</view>

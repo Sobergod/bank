@@ -1,0 +1,16 @@
+
+<view class='m-head' bindtap=''>
+  <image src='{{ban}}' mode='widthFix'></image>
+</view>
+<view class='title'>
+  <view class='t t1'>商户名称</view>
+  <view class='t'>商户地址</view>
+</view>
+<view class='m-container'>
+  <block wx:for="{{tDetail}}">
+    <view class='item'>
+      <view class='t1 t2'>{{item.name}}</view>
+      <view class='t2'>{{item.addr}}</view>
+    </view>
+  </block>
+</view>

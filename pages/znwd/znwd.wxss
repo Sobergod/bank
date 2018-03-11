@@ -1,0 +1,34 @@
+/* pages/trade/trade.wxss */
+.m-head swiper {
+  height: 200px;
+}
+.m-head image{
+  width: 100%;
+  height: 100%;
+}
+.m-title {
+  padding: 20rpx 0;
+  text-align: center;
+  background-color: #fff;
+  color: #3F76DA;
+  font-size: 17px;
+}
+.m-container {
+  padding: 20rpx 40rpx;
+}
+.item {
+  display: flex;
+  margin-bottom: 20rpx;
+  justify-content: space-between;
+  padding: 40rpx 10rpx;
+  background-color: #fff;
+  box-shadow: 4px -2px 2px #888;
+  font-size: 14px;
+}
+.item-btn {
+  padding: 5rpx 20rpx;
+  font-size: 10px;
+  color: #888;
+  border-radius: 20px;
+  background-color: #E5E5E5;
+}
