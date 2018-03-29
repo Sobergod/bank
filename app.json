@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/depositdetail/depositdetail",
+    "pages/depositdetail/subdetail/sudetail",
     "pages/index/index",
     "pages/znwd/zdetail/zdetail",
     "pages/wdcx/wdcx",

@@ -1,0 +1,10 @@
+<!--pages/depositdetail/subdetail/sudetail.wxml-->
+<import src="../../template/template.wxml" />
+<view class='m-head'>
+  <template is="lunbo" data="{{...swiperInfo}}"></template>
+</view>
+<view class='m-container'>
+  <view class='shadow'>
+    <image mode='widthFix' src='../test2.png'></image>
+  </view>
+</view>

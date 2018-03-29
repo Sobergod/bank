@@ -1,0 +1,17 @@
+<!--pages/depositdetail/depositdetail.wxml-->
+<import src="./../template/template.wxml" />
+<view class='m-head'>
+  <template is="lunbo" data="{{...swiperInfo}}"></template>
+</view>
+<view class='m-container'>
+  <block wx:for="{{depositTitle}}">
+    <navigator url='subdetail/sudetail?id={{item.id}}'>
+      <view class='image-group'>
+        <view class='btn-item'>
+          <image class='a' src='{{item.url}}'></image>
+        </view>
+        <image class='a1' src='more.png'></image>
+      </view>
+    </navigator>
+  </block>
+</view>
